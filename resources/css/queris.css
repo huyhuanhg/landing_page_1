@@ -1,0 +1,290 @@
+/* big tablet to 1200px */
+@media screen and (min-width: 767px){
+.mb-nav-icon{  
+    display: none;
+}
+.main-nav{
+    display: block;
+}
+}
+@media screen and (max-width: 1200px){
+    /* DEFAULT SETUP */
+html{
+    font-size: 16px;
+}
+
+    /* REUSEABLE COMPONENT */
+
+    /* HEADER */
+    .heading-main-box{
+        transform: translate(-35%, -30%);
+    }
+    
+    /* ABOUT SECTION */
+
+    /* PRODUCTS SECTION */
+    .product-class .btn{
+        margin-left: 15%;
+    }
+
+    /* TESTIMONIALS SECTION */
+
+    /* Sponsor Section */
+
+    /* CONTACT Section */
+
+}
+/* small tablet to big tablet (768px-1023px) */
+@media screen and (max-width: 1023px){
+    /* REUSEABLE COMPONENT */
+
+    /* HEADER */
+    
+.logo{
+    width: 300px;
+    margin-left: 3%;
+}
+.main-nav{
+    margin-top: 35px;
+    margin-right: 25px;
+}
+.main-nav>li{
+    margin-right: 15px;
+}
+.heading-main-box{
+    transform: translate(-30%, -40%);
+}
+    /* ABOUT SECTION */
+
+    /* PRODUCTS SECTION */
+    .product-class {
+        height: 290px;
+    }
+.product-class h3 {
+    padding-top: 20px;
+    font-size: 90%;
+}
+.product-class ul li{
+    font-size: 90%;
+    margin-left: 5%;
+}
+.product-class>ul>li .check-icon {
+    margin-right: 5px;
+}
+.product-class .btn {
+    width: 80%;
+    margin-left: 10%;
+}
+    /* TESTIMONIALS SECTION */
+
+    /* Sponsor Section */
+
+    /* CONTACT Section */
+    .contact-section{
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+    .info-page{
+        margin-top: 10px;
+    }
+    .icon-page li{
+        margin-left: 10px;
+    }
+}
+/* small phones to small tablet */
+@media screen and (max-width: 767px){
+    .col{
+        width: 100%;
+    }
+    /* REUSEABLE COMPONENT */
+
+    /* HEADER */
+    
+.main-nav{
+    display: none;
+}
+.mb-nav-icon{
+    display: block;
+}
+
+.sticky .mb-nav-icon{
+    right: 25px;
+}
+
+.heading-main-box{
+    font-size: 80%;
+    transform: translate(-18%,-55%);
+}
+.heading-main-box .btn{
+    font-size: 130%;
+}
+    /* ABOUT SECTION */
+    .about-picture:first-child{
+        padding-top: 20px;
+    }
+.about-picture img{
+    margin-left: 18px;
+}
+    /* PRODUCTS SECTION */
+.product-class{
+    margin-left: 15%;
+    margin-bottom: 30px;
+    width: 70%;
+    height: 310px;
+}
+.product-class h3{
+    font-size: 120%;
+}
+.product-class ul li{
+    font-size: 120%;
+    margin-left: 10%;
+}
+    /* TESTIMONIALS SECTION */
+.testimonials-section .row .col{
+    margin-bottom: 70px;
+}
+.testimonial-note>blockquote>cite{
+    margin-top: 15px;
+}
+    /* Sponsor Section */
+    .sponsors-group>li>figure>figcaption{
+        display: none;
+    }
+    
+    .sponsors-group>li>figure img{
+        height: 95px;
+    }
+    /* CONTACT Section */
+.contact-section{
+    padding-left: 50px;
+}
+.info-page{
+    font-size: 110%;
+}
+.icon-page{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+#contact{
+    width: 90%;
+    margin-left: 3%;
+}
+label{
+    font-size: 130%;
+}
+input, textarea{
+    margin-left: 0;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+#message{
+    height: 80px;
+}
+}
+
+/* small phones (0-480px) */
+@media screen and (max-width: 480px){
+    /* REUSEABLE COMPONENT */
+    
+section{
+    padding: 20px;
+}
+    /* HEADER */
+    header{
+        height: 80vh;
+    }
+    .logo{
+        width: 250px;
+        margin-top: -10%;
+    }
+    .mb-nav-icon{
+        font-size: 175%;
+        top: 5%;
+        right: 35px;
+    }
+    .sticky .mb-nav-icon{
+        font-size: 175%;
+        right: 25px;
+    }
+.heading-main-box{
+    font-size: 50%;
+    transform: translate(-60%,-70%);
+}
+.heading-main-box .btn{
+    width: 120px;
+    padding: 10px 15px;
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 20px;
+} 
+
+
+    /* ABOUT SECTION
+
+    /* PRODUCTS SECTION */
+    .product-class{
+        height: 270px;
+    }
+    .product-class h3{
+        padding-top: 10px;
+        font-size: 100%;
+    }
+    .product-class ul li{
+        margin-left: 5%;
+        font-size: 100%;
+    }
+    
+
+    /* TESTIMONIALS SECTION */
+    .testimonial-note>blockquote>cite>img {
+        height: 35px;
+    }
+.testimonials-section .row .col:last-child{
+    margin-bottom: 30px;
+}
+
+    /* Sponsor Section */
+    .sponsors-section>h2 {
+        margin-bottom: 40px;
+    }
+    .sponsors-group>li>figure img{
+        height: 70px;
+    }
+    /* CONTACT Section */
+    .contact-section {
+        padding-left: 20px;
+    }
+    .info-page {
+        font-size: 80%;
+    }
+    .icon-page {
+        margin-bottom: 40px;
+    }
+    #contact {
+        width: 100%;
+        margin: 0px;
+        padding: 5%;
+    }
+    #contact .row .col:first-child{
+        margin-bottom: 3px;
+    }
+    label {
+        font-size: 110%;
+    }
+    input, textarea {
+        width: 100%;
+    }
+}
+@media screen and (max-width:375px){
+    .mb-nav-icon{
+        font-size: 150%;
+        top: 40px;
+        right: 15px;
+    }
+    .sticky .mb-nav-icon{
+        top: 18px;
+        font-size: 150%;
+    }
+}
